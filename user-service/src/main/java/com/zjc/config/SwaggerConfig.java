@@ -46,8 +46,6 @@ public class SwaggerConfig {
                 .apis(RequestHandlerSelectors.basePackage("com.zjc.controller"))
                 .paths(PathSelectors.any())
                 .build().globalOperationParameters(parameter());
-                //.securitySchemes(newArrayList(oauth()))
-               // .securityContexts(newArrayList(securityContext()));
     }
 
     private ApiInfo apiInfo() {
@@ -55,7 +53,7 @@ public class SwaggerConfig {
                 .title(" user-service api ")
                 .description("user-service 微服务")
                 .termsOfServiceUrl("")
-                .contact("forezp")
+                .contact("zjc")
                 .version("1.0")
                 .build();
     }

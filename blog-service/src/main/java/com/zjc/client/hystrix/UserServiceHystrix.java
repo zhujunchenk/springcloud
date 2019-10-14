@@ -7,9 +7,7 @@ import com.zjc.entity.User;
 import org.springframework.stereotype.Component;
 
 
-/**
- * Created by fangzhipeng on 2017/5/31.
- */
+
 @Component
 public class UserServiceHystrix implements UserServiceClient {
 

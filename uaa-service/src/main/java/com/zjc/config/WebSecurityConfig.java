@@ -32,7 +32,7 @@ class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        //CSRF:因为不再依赖于Cookie，所以你就不需要考虑对CSRF（跨站请求伪造）的防范。
+        //CSRF:因为不再依赖于Cookie，所以不需要考虑对CSRF（跨站请求伪造）的防范。
         http
             .csrf().disable()
                 .exceptionHandling()

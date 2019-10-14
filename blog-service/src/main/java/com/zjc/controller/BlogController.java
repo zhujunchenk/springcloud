@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@RequestMapping("/blog")
 public class BlogController {
 
     @Autowired
@@ -28,7 +29,7 @@ public class BlogController {
 
     @ApiOperation(value = "发布博客",notes = "发布博客")
     @PreAuthorize("hasRole('USER')")
-    @PostMapping("")
+    @PostMapping("/add")
     @SysLogger("postBlog")
     public RespDTO postBlog(@RequestBody Blog blog){
         Blog blog1=blogService.postBlog(blog);
