@@ -13,7 +13,9 @@
 2个资源服务:
 * user-service   
 * blog-service 
+
 1个common工程,为资源服务提供基本的工具类
 * common
+
 1个链路工程,使用Jar包的形式启动
 * zipkin-server-2.10.1-exec.jar   
