@@ -1,0 +1,676 @@
+2019-10-14 09:45:24.384  INFO 5560 --- [main] com.zjc.AdminServerApplication           : The following profiles are active: pro
+2019-10-14 09:45:24.884  WARN 5560 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-10-14 09:45:25.009  INFO 5560 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=879c3ea7-9b95-3a4c-84c8-a4950c525b43
+2019-10-14 09:45:25.071  INFO 5560 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2385cf88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-14 09:45:25.337  INFO 5560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9998 (http)
+2019-10-14 09:45:25.353  INFO 5560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-10-14 09:45:25.353  INFO 5560 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2019-10-14 09:45:25.353  INFO 5560 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;E:\app\Administrator\product\11.2.0\dbhome_1\bin;E:\app\Administrator\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\OpenVPN\bin;C:\Perl64\bin;;";C:\Program Files\Apache Software Foundation\Tomcat 7.0\bin";D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_191\bin;D:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python37\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;D:\MentorGraphics\9.5PADS\SDD_HOME\CAMCAD;D:\MentorGraphics\9.5PADS\SDD_HOME\common\win32\lib;D:\Program Files\nodejs\node_global;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.1\bin;D:\mysql-5.7.27-winx64\bin;d:\Microsoft VS Code\bin;d:\Program Files\erl10.2\bin;D:\ElasticSearch v6.1.1\bin;;.]
+2019-10-14 09:45:25.478  INFO 5560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-10-14 09:45:25.478  INFO 5560 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1094 ms
+2019-10-14 09:45:25.556  WARN 5560 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-14 09:45:25.556  INFO 5560 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-14 09:45:25.556  INFO 5560 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@49cb1baf
+2019-10-14 09:45:27.009  INFO 5560 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-10-14 09:45:27.165  INFO 5560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-10-14 09:45:27.165  INFO 5560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2019-10-14 09:45:27.165  INFO 5560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-10-14 09:45:27.165  INFO 5560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2019-10-14 09:45:27.165  INFO 5560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-10-14 09:45:27.165  INFO 5560 --- [main] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2019-10-14 09:45:27.165  INFO 5560 --- [main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2019-10-14 09:45:27.165  INFO 5560 --- [main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-10-14 09:45:27.165  INFO 5560 --- [main] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-10-14 09:45:27.227  WARN 5560 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-10-14 09:45:27.227  INFO 5560 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-14 09:45:27.352  INFO 5560 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-14 09:45:27.446  WARN 5560 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-10-14 09:45:27.821  WARN 5560 --- [main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2019-10-14 09:45:27.821  WARN 5560 --- [main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$570/2119918107@647b9364}
+2019-10-14 09:45:29.274  INFO 5560 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2019-10-14 09:45:29.492  INFO 5560 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79195c22, org.springframework.security.web.context.SecurityContextPersistenceFilter@3079c26a, org.springframework.security.web.header.HeaderWriterFilter@7b9e25bd, org.springframework.security.web.authentication.logout.LogoutFilter@561f9d92, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@78116659, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@26b3c9a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17ec335a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42a0786f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c9b5a99, org.springframework.security.web.session.SessionManagementFilter@37e7c4cc, org.springframework.security.web.access.ExceptionTranslationFilter@6aae0e6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6562cc23]
+2019-10-14 09:45:29.539  INFO 5560 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 21 endpoint(s) beneath base path '/actuator'
+2019-10-14 09:45:29.664  INFO 5560 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-10-14 09:45:29.680  INFO 5560 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-10-14 09:45:30.055  INFO 5560 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-10-14 09:45:30.055  INFO 5560 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-10-14 09:45:30.133  INFO 5560 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-10-14 09:45:30.133  INFO 5560 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-10-14 09:45:30.320  INFO 5560 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 09:45:30.586  INFO 5560 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-10-14 09:45:30.586  INFO 5560 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-10-14 09:45:30.586  INFO 5560 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-10-14 09:45:30.586  INFO 5560 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-10-14 09:45:30.586  INFO 5560 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-10-14 09:45:30.586  INFO 5560 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-10-14 09:45:30.586  INFO 5560 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-10-14 09:45:30.711  INFO 5560 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-10-14 09:45:30.726  INFO 5560 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 10
+2019-10-14 09:45:30.726  INFO 5560 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-14 09:45:30.742  INFO 5560 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1571017530726 with initial instances count: 7
+2019-10-14 09:45:30.742  INFO 5560 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADMIN-SERVER with eureka with status UP
+2019-10-14 09:45:30.742  INFO 5560 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1571017530742, current=UP, previous=STARTING]
+2019-10-14 09:45:30.742  INFO 5560 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVER/localhost:admin-server:9998: registering service...
+2019-10-14 09:45:30.914  INFO 5560 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADMIN-SERVER/localhost:admin-server:9998 - registration status: 204
+2019-10-14 09:45:31.445  INFO 5560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9998 (http) with context path ''
+2019-10-14 09:45:31.445  INFO 5560 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9998
+2019-10-14 09:45:31.445  INFO 5560 --- [main] com.zjc.AdminServerApplication           : Started AdminServerApplication in 12.388 seconds (JVM running for 13.27)
+2019-10-14 09:45:32.226  INFO 5560 --- [reactor-http-nio-3] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=a973ff14be49, version=0, registration=Registration(name=ADMIN-SERVER, managementUrl=http://localhost:8080/actuator, healthUrl=http://localhost:8080/actuator/health, serviceUrl=http://localhost:8080/, source=discovery), registered=true, statusInfo=StatusInfo(status=UNKNOWN, details={}), statusTimestamp=2019-10-14T01:45:31.164Z, info=Info(values={}), endpoints=Endpoints(endpoints={health=Endpoint(id=health, url=http://localhost:8080/actuator/health)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8080
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:616)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 common frames omitted
+
+2019-10-14 09:45:32.429  INFO 5560 --- [RMI TCP Connection(5)-169.254.179.158] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-14 09:45:32.429  INFO 5560 --- [RMI TCP Connection(5)-169.254.179.158] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-10-14 09:45:32.429  INFO 5560 --- [RMI TCP Connection(4)-169.254.179.158] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 09:45:32.429  INFO 5560 --- [RMI TCP Connection(5)-169.254.179.158] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2019-10-14 09:45:33.866  INFO 5560 --- [RMI TCP Connection(4)-169.254.179.158] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 09:48:01.479  INFO 5560 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (a973ff14be49) missing in DiscoveryClient services 
+2019-10-14 09:50:30.590  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 09:50:38.015  INFO 5560 --- [http-nio-9998-exec-6] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 09:50:39.483  INFO 5560 --- [http-nio-9998-exec-6] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 09:51:03.303 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0x1d5f915b, L:/127.0.0.1:11627 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 09:51:18.955  INFO 5560 --- [reactor-http-nio-6] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=515473113b01, version=2, registration=Registration(name=USER-SERVICE, managementUrl=http://localhost:8762/actuator, healthUrl=http://localhost:8762/actuator/health, serviceUrl=http://localhost:8762/, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={hystrix={status=UP}, clientConfigServer={status=UP, details={propertySources=[classpath:/shared/user-service-pro.yml, classpath:/shared/application.yml]}}, diskSpace={status=UP, details={total=392459972608, free=211770470400, threshold=10485760}}, rabbit={status=UP, details={version=3.7.9}}, refreshScope={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[blog-service, auth-service, user-service, logger-service, admin-server, gateway-service, monitor-service]}}, eureka={description=Remote status from Eureka server, status=UP, details={applications={BLOG-SERVICE=1, AUTH-SERVICE=1, MONITOR-SERVICE=1, GATEWAY-SERVICE=1, LOGGER-SERVICE=1, USER-SERVICE=1, ADMIN-SERVER=1}}}}}, db={status=UP, details={database=MySQL, hello=1}}}), statusTimestamp=2019-10-14T01:45:32.773Z, info=Info(values={}), endpoints=Endpoints(endpoints={hystrix.stream=Endpoint(id=hystrix.stream, url=http://localhost:8762/actuator/hystrix.stream), httptrace=Endpoint(id=httptrace, url=http://localhost:8762/actuator/httptrace), caches=Endpoint(id=caches, url=http://localhost:8762/actuator/caches), loggers=Endpoint(id=loggers, url=http://localhost:8762/actuator/loggers), health=Endpoint(id=health, url=http://localhost:8762/actuator/health), refresh=Endpoint(id=refresh, url=http://localhost:8762/actuator/refresh), env=Endpoint(id=env, url=http://localhost:8762/actuator/env), heapdump=Endpoint(id=heapdump, url=http://localhost:8762/actuator/heapdump), features=Endpoint(id=features, url=http://localhost:8762/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://localhost:8762/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://localhost:8762/actuator/mappings), archaius=Endpoint(id=archaius, url=http://localhost:8762/actuator/archaius), beans=Endpoint(id=beans, url=http://localhost:8762/actuator/beans), configprops=Endpoint(id=configprops, url=http://localhost:8762/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://localhost:8762/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://localhost:8762/actuator/metrics), conditions=Endpoint(id=conditions, url=http://localhost:8762/actuator/conditions), auditevents=Endpoint(id=auditevents, url=http://localhost:8762/actuator/auditevents), service-registry=Endpoint(id=service-registry, url=http://localhost:8762/actuator/service-registry), info=Endpoint(id=info, url=http://localhost:8762/actuator/info), jolokia=Endpoint(id=jolokia, url=http://localhost:8762/actuator/jolokia)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8762
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:616)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 common frames omitted
+
+2019-10-14 09:51:53.549 ERROR 5560 --- [reactor-http-nio-6] r.n.resources.PooledConnectionProvider   : [id: 0x4b8abf35, L:/127.0.0.1:11825 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 09:51:53.658 ERROR 5560 --- [reactor-http-nio-6] r.n.resources.PooledConnectionProvider   : [id: 0x5851d6b3, L:/127.0.0.1:11826 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 09:51:58.952  INFO 5560 --- [reactor-http-nio-6] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=515473113b01, version=4, registration=Registration(name=USER-SERVICE, managementUrl=http://localhost:8762/actuator, healthUrl=http://localhost:8762/actuator/health, serviceUrl=http://localhost:8762/, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={hystrix={status=UP}, clientConfigServer={status=UP, details={propertySources=[classpath:/shared/user-service-pro.yml, classpath:/shared/application.yml]}}, diskSpace={status=UP, details={total=392459972608, free=211770454016, threshold=10485760}}, rabbit={status=UP, details={version=3.7.9}}, refreshScope={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[blog-service, auth-service, monitor-service, gateway-service, logger-service, user-service, admin-server]}}, eureka={description=Eureka discovery client has not yet successfully connected to a Eureka server, status=UP, details={applications={BLOG-SERVICE=1, AUTH-SERVICE=1, MONITOR-SERVICE=1, GATEWAY-SERVICE=1, LOGGER-SERVICE=1, USER-SERVICE=1, ADMIN-SERVER=1}}}}}, db={status=UP, details={database=MySQL, hello=1}}}), statusTimestamp=2019-10-14T01:51:37.991Z, info=Info(values={}), endpoints=Endpoints(endpoints={hystrix.stream=Endpoint(id=hystrix.stream, url=http://localhost:8762/actuator/hystrix.stream), httptrace=Endpoint(id=httptrace, url=http://localhost:8762/actuator/httptrace), caches=Endpoint(id=caches, url=http://localhost:8762/actuator/caches), loggers=Endpoint(id=loggers, url=http://localhost:8762/actuator/loggers), health=Endpoint(id=health, url=http://localhost:8762/actuator/health), refresh=Endpoint(id=refresh, url=http://localhost:8762/actuator/refresh), env=Endpoint(id=env, url=http://localhost:8762/actuator/env), heapdump=Endpoint(id=heapdump, url=http://localhost:8762/actuator/heapdump), features=Endpoint(id=features, url=http://localhost:8762/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://localhost:8762/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://localhost:8762/actuator/mappings), archaius=Endpoint(id=archaius, url=http://localhost:8762/actuator/archaius), beans=Endpoint(id=beans, url=http://localhost:8762/actuator/beans), configprops=Endpoint(id=configprops, url=http://localhost:8762/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://localhost:8762/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://localhost:8762/actuator/metrics), conditions=Endpoint(id=conditions, url=http://localhost:8762/actuator/conditions), auditevents=Endpoint(id=auditevents, url=http://localhost:8762/actuator/auditevents), service-registry=Endpoint(id=service-registry, url=http://localhost:8762/actuator/service-registry), info=Endpoint(id=info, url=http://localhost:8762/actuator/info), jolokia=Endpoint(id=jolokia, url=http://localhost:8762/actuator/jolokia)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8762
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:616)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 common frames omitted
+
+2019-10-14 09:55:30.593  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 09:55:58.050  INFO 5560 --- [http-nio-9998-exec-9] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 09:55:59.412  INFO 5560 --- [http-nio-9998-exec-9] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 10:00:30.606  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 10:00:58.072  INFO 5560 --- [http-nio-9998-exec-8] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 10:00:59.620  INFO 5560 --- [http-nio-9998-exec-8] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 10:05:30.620  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 10:06:17.986  INFO 5560 --- [http-nio-9998-exec-10] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 10:06:19.449  INFO 5560 --- [http-nio-9998-exec-10] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 10:10:30.621  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 10:11:18.116  INFO 5560 --- [http-nio-9998-exec-4] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 10:11:19.490  INFO 5560 --- [http-nio-9998-exec-4] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 10:15:12.411 ERROR 5560 --- [http-nio-9998-exec-8] o.a.catalina.connector.CoyoteAdapter     : Exception while processing an asynchronous request
+
+java.lang.IllegalStateException: Calling [asyncError()] is not valid for a request with Async state [MUST_DISPATCH]
+	at org.apache.coyote.AsyncStateMachine.asyncError(AsyncStateMachine.java:440)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:494)
+	at org.apache.coyote.Request.action(Request.java:430)
+	at org.apache.catalina.core.AsyncContextImpl.setErrorState(AsyncContextImpl.java:382)
+	at org.apache.catalina.connector.CoyoteAdapter.asyncDispatch(CoyoteAdapter.java:239)
+	at org.apache.coyote.AbstractProcessor.dispatch(AbstractProcessor.java:241)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:53)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 10:15:30.624  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 10:16:17.996  INFO 5560 --- [http-nio-9998-exec-3] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 10:16:19.389  INFO 5560 --- [http-nio-9998-exec-3] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 10:20:30.627  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 10:21:37.991  INFO 5560 --- [http-nio-9998-exec-8] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 10:21:39.353  INFO 5560 --- [http-nio-9998-exec-8] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 10:25:30.630  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 10:26:38.048  INFO 5560 --- [http-nio-9998-exec-9] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 10:26:39.509  INFO 5560 --- [http-nio-9998-exec-9] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 10:30:30.634  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 10:31:58.014  INFO 5560 --- [http-nio-9998-exec-2] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 10:31:59.484  INFO 5560 --- [http-nio-9998-exec-2] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 10:35:30.636  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 10:36:58.093  INFO 5560 --- [http-nio-9998-exec-1] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 10:36:59.594  INFO 5560 --- [http-nio-9998-exec-1] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 10:40:30.639  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 10:41:58.043  INFO 5560 --- [http-nio-9998-exec-2] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 10:41:59.444  INFO 5560 --- [http-nio-9998-exec-2] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 10:42:12.885 ERROR 5560 --- [reactor-http-nio-6] r.n.resources.PooledConnectionProvider   : [id: 0x3916f701, L:/127.0.0.1:13240 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 10:42:28.924  INFO 5560 --- [reactor-http-nio-1] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=515473113b01, version=6, registration=Registration(name=USER-SERVICE, managementUrl=http://localhost:8762/actuator, healthUrl=http://localhost:8762/actuator/health, serviceUrl=http://localhost:8762/, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={hystrix={status=UP}, clientConfigServer={status=UP, details={propertySources=[classpath:/shared/user-service-pro.yml, classpath:/shared/application.yml]}}, diskSpace={status=UP, details={total=392459972608, free=211770454016, threshold=10485760}}, rabbit={status=UP, details={version=3.7.9}}, refreshScope={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[blog-service, auth-service, monitor-service, gateway-service, logger-service, user-service, admin-server]}}, eureka={description=Eureka discovery client has not yet successfully connected to a Eureka server, status=UP, details={applications={BLOG-SERVICE=1, AUTH-SERVICE=1, MONITOR-SERVICE=1, GATEWAY-SERVICE=1, LOGGER-SERVICE=1, USER-SERVICE=1, ADMIN-SERVER=1}}}}}, db={status=UP, details={database=MySQL, hello=1}}}), statusTimestamp=2019-10-14T01:52:19.723Z, info=Info(values={}), endpoints=Endpoints(endpoints={hystrix.stream=Endpoint(id=hystrix.stream, url=http://localhost:8762/actuator/hystrix.stream), httptrace=Endpoint(id=httptrace, url=http://localhost:8762/actuator/httptrace), caches=Endpoint(id=caches, url=http://localhost:8762/actuator/caches), loggers=Endpoint(id=loggers, url=http://localhost:8762/actuator/loggers), health=Endpoint(id=health, url=http://localhost:8762/actuator/health), refresh=Endpoint(id=refresh, url=http://localhost:8762/actuator/refresh), env=Endpoint(id=env, url=http://localhost:8762/actuator/env), heapdump=Endpoint(id=heapdump, url=http://localhost:8762/actuator/heapdump), features=Endpoint(id=features, url=http://localhost:8762/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://localhost:8762/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://localhost:8762/actuator/mappings), archaius=Endpoint(id=archaius, url=http://localhost:8762/actuator/archaius), beans=Endpoint(id=beans, url=http://localhost:8762/actuator/beans), configprops=Endpoint(id=configprops, url=http://localhost:8762/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://localhost:8762/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://localhost:8762/actuator/metrics), conditions=Endpoint(id=conditions, url=http://localhost:8762/actuator/conditions), auditevents=Endpoint(id=auditevents, url=http://localhost:8762/actuator/auditevents), service-registry=Endpoint(id=service-registry, url=http://localhost:8762/actuator/service-registry), info=Endpoint(id=info, url=http://localhost:8762/actuator/info), jolokia=Endpoint(id=jolokia, url=http://localhost:8762/actuator/jolokia)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8762
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:616)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 common frames omitted
+
+2019-10-14 10:45:30.651  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 10:47:18.113  INFO 5560 --- [http-nio-9998-exec-8] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 10:47:19.509  INFO 5560 --- [http-nio-9998-exec-8] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 10:50:30.681  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 10:52:17.985  INFO 5560 --- [http-nio-9998-exec-9] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 10:52:19.365  INFO 5560 --- [http-nio-9998-exec-9] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 10:55:30.682  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 10:57:17.990  INFO 5560 --- [http-nio-9998-exec-8] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 10:57:19.404  INFO 5560 --- [http-nio-9998-exec-8] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 11:00:30.683  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 11:02:18.123  INFO 5560 --- [http-nio-9998-exec-10] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 11:02:19.508  INFO 5560 --- [http-nio-9998-exec-10] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 11:03:50.680 ERROR 5560 --- [reactor-http-nio-7] r.n.resources.PooledConnectionProvider   : [id: 0xb3a0d6a1, L:/127.0.0.1:1287 - R:localhost/127.0.0.1:9999] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 11:04:08.932  INFO 5560 --- [reactor-http-nio-2] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=674bd9384242, version=2, registration=Registration(name=AUTH-SERVICE, managementUrl=http://localhost:9999/actuator, healthUrl=http://localhost:9999/actuator/health, serviceUrl=http://localhost:9999/, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={hystrix={status=UP}, clientConfigServer={status=UP, details={propertySources=[classpath:/shared/auth-service-pro.yml, classpath:/shared/application.yml]}}, diskSpace={status=UP, details={total=392459972608, free=211770470400, threshold=10485760}}, refreshScope={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[auth-service, blog-service, user-service, logger-service, admin-server, gateway-service, monitor-service]}}, eureka={description=Remote status from Eureka server, status=UP, details={applications={BLOG-SERVICE=1, AUTH-SERVICE=1, MONITOR-SERVICE=1, GATEWAY-SERVICE=1, LOGGER-SERVICE=1, USER-SERVICE=1, ADMIN-SERVER=1}}}}}, db={status=UP, details={database=MySQL, hello=1}}}), statusTimestamp=2019-10-14T01:45:31.476Z, info=Info(values={}), endpoints=Endpoints(endpoints={httptrace=Endpoint(id=httptrace, url=http://localhost:9999/actuator/httptrace), caches=Endpoint(id=caches, url=http://localhost:9999/actuator/caches), loggers=Endpoint(id=loggers, url=http://localhost:9999/actuator/loggers), health=Endpoint(id=health, url=http://localhost:9999/actuator/health), refresh=Endpoint(id=refresh, url=http://localhost:9999/actuator/refresh), env=Endpoint(id=env, url=http://localhost:9999/actuator/env), heapdump=Endpoint(id=heapdump, url=http://localhost:9999/actuator/heapdump), features=Endpoint(id=features, url=http://localhost:9999/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://localhost:9999/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://localhost:9999/actuator/mappings), archaius=Endpoint(id=archaius, url=http://localhost:9999/actuator/archaius), beans=Endpoint(id=beans, url=http://localhost:9999/actuator/beans), configprops=Endpoint(id=configprops, url=http://localhost:9999/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://localhost:9999/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://localhost:9999/actuator/metrics), conditions=Endpoint(id=conditions, url=http://localhost:9999/actuator/conditions), auditevents=Endpoint(id=auditevents, url=http://localhost:9999/actuator/auditevents), service-registry=Endpoint(id=service-registry, url=http://localhost:9999/actuator/service-registry), info=Endpoint(id=info, url=http://localhost:9999/actuator/info), jolokia=Endpoint(id=jolokia, url=http://localhost:9999/actuator/jolokia)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9999
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:616)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 common frames omitted
+
+2019-10-14 11:04:26.607 ERROR 5560 --- [reactor-http-nio-6] r.n.resources.PooledConnectionProvider   : [id: 0x72c6bbb5, L:/127.0.0.1:3199 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 11:04:26.607 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0x105d31bb, L:/127.0.0.1:3265 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 11:04:26.608 ERROR 5560 --- [reactor-http-nio-6] r.n.resources.PooledConnectionProvider   : [id: 0xf34604cf, L:/127.0.0.1:3344 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 11:04:26.608 ERROR 5560 --- [reactor-http-nio-1] r.n.resources.PooledConnectionProvider   : [id: 0x1d57fc69, L:/127.0.0.1:3356 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 11:04:26.608 ERROR 5560 --- [reactor-http-nio-4] r.n.resources.PooledConnectionProvider   : [id: 0xa6930deb, L:/127.0.0.1:3343 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 11:04:28.948  INFO 5560 --- [reactor-http-nio-7] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=515473113b01, version=8, registration=Registration(name=USER-SERVICE, managementUrl=http://localhost:8762/actuator, healthUrl=http://localhost:8762/actuator/health, serviceUrl=http://localhost:8762/, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={hystrix={status=UP}, clientConfigServer={status=UP, details={propertySources=[classpath:/shared/user-service-pro.yml, classpath:/shared/application.yml]}}, diskSpace={status=UP, details={total=392459972608, free=211770355712, threshold=10485760}}, rabbit={status=UP, details={version=3.7.9}}, refreshScope={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[blog-service, auth-service, monitor-service, gateway-service, logger-service, user-service, admin-server]}}, eureka={description=Eureka discovery client has not yet successfully connected to a Eureka server, status=UP, details={applications={BLOG-SERVICE=1, AUTH-SERVICE=1, MONITOR-SERVICE=1, GATEWAY-SERVICE=1, LOGGER-SERVICE=1, USER-SERVICE=1, ADMIN-SERVER=1}}}}}, db={status=UP, details={database=MySQL, hello=1}}}), statusTimestamp=2019-10-14T02:43:07.962Z, info=Info(values={}), endpoints=Endpoints(endpoints={hystrix.stream=Endpoint(id=hystrix.stream, url=http://localhost:8762/actuator/hystrix.stream), httptrace=Endpoint(id=httptrace, url=http://localhost:8762/actuator/httptrace), caches=Endpoint(id=caches, url=http://localhost:8762/actuator/caches), loggers=Endpoint(id=loggers, url=http://localhost:8762/actuator/loggers), health=Endpoint(id=health, url=http://localhost:8762/actuator/health), refresh=Endpoint(id=refresh, url=http://localhost:8762/actuator/refresh), env=Endpoint(id=env, url=http://localhost:8762/actuator/env), heapdump=Endpoint(id=heapdump, url=http://localhost:8762/actuator/heapdump), features=Endpoint(id=features, url=http://localhost:8762/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://localhost:8762/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://localhost:8762/actuator/mappings), archaius=Endpoint(id=archaius, url=http://localhost:8762/actuator/archaius), beans=Endpoint(id=beans, url=http://localhost:8762/actuator/beans), configprops=Endpoint(id=configprops, url=http://localhost:8762/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://localhost:8762/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://localhost:8762/actuator/metrics), conditions=Endpoint(id=conditions, url=http://localhost:8762/actuator/conditions), auditevents=Endpoint(id=auditevents, url=http://localhost:8762/actuator/auditevents), service-registry=Endpoint(id=service-registry, url=http://localhost:8762/actuator/service-registry), info=Endpoint(id=info, url=http://localhost:8762/actuator/info), jolokia=Endpoint(id=jolokia, url=http://localhost:8762/actuator/jolokia)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8762
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:616)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 common frames omitted
+
+2019-10-14 11:05:30.684  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 11:07:37.985  INFO 5560 --- [http-nio-9998-exec-9] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 11:07:39.363  INFO 5560 --- [http-nio-9998-exec-9] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 11:10:30.685  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 11:12:04.217 ERROR 5560 --- [reactor-http-nio-4] r.n.resources.PooledConnectionProvider   : [id: 0x047da690, L:/127.0.0.1:3882 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 11:12:04.218 ERROR 5560 --- [reactor-http-nio-5] r.n.resources.PooledConnectionProvider   : [id: 0x2faf199c, L:/127.0.0.1:3869 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 11:12:08.929  INFO 5560 --- [reactor-http-nio-7] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=515473113b01, version=10, registration=Registration(name=USER-SERVICE, managementUrl=http://localhost:8762/actuator, healthUrl=http://localhost:8762/actuator/health, serviceUrl=http://localhost:8762/, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={hystrix={status=UP}, clientConfigServer={status=UP, details={propertySources=[classpath:/shared/user-service-pro.yml, classpath:/shared/application.yml]}}, diskSpace={status=UP, details={total=392459972608, free=211770363904, threshold=10485760}}, rabbit={status=UP, details={version=3.7.9}}, refreshScope={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[blog-service, auth-service, monitor-service, gateway-service, logger-service, user-service, admin-server]}}, eureka={description=Eureka discovery client has not yet successfully connected to a Eureka server, status=UP, details={applications={BLOG-SERVICE=1, AUTH-SERVICE=1, MONITOR-SERVICE=1, GATEWAY-SERVICE=1, LOGGER-SERVICE=1, USER-SERVICE=1, ADMIN-SERVER=1}}}}}, db={status=UP, details={database=MySQL, hello=1}}}), statusTimestamp=2019-10-14T03:05:07.920Z, info=Info(values={}), endpoints=Endpoints(endpoints={hystrix.stream=Endpoint(id=hystrix.stream, url=http://localhost:8762/actuator/hystrix.stream), httptrace=Endpoint(id=httptrace, url=http://localhost:8762/actuator/httptrace), caches=Endpoint(id=caches, url=http://localhost:8762/actuator/caches), loggers=Endpoint(id=loggers, url=http://localhost:8762/actuator/loggers), health=Endpoint(id=health, url=http://localhost:8762/actuator/health), refresh=Endpoint(id=refresh, url=http://localhost:8762/actuator/refresh), env=Endpoint(id=env, url=http://localhost:8762/actuator/env), heapdump=Endpoint(id=heapdump, url=http://localhost:8762/actuator/heapdump), features=Endpoint(id=features, url=http://localhost:8762/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://localhost:8762/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://localhost:8762/actuator/mappings), archaius=Endpoint(id=archaius, url=http://localhost:8762/actuator/archaius), beans=Endpoint(id=beans, url=http://localhost:8762/actuator/beans), configprops=Endpoint(id=configprops, url=http://localhost:8762/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://localhost:8762/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://localhost:8762/actuator/metrics), conditions=Endpoint(id=conditions, url=http://localhost:8762/actuator/conditions), auditevents=Endpoint(id=auditevents, url=http://localhost:8762/actuator/auditevents), service-registry=Endpoint(id=service-registry, url=http://localhost:8762/actuator/service-registry), info=Endpoint(id=info, url=http://localhost:8762/actuator/info), jolokia=Endpoint(id=jolokia, url=http://localhost:8762/actuator/jolokia)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8762
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:616)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 common frames omitted
+
+2019-10-14 11:12:37.986  INFO 5560 --- [http-nio-9998-exec-3] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 11:12:39.350  INFO 5560 --- [http-nio-9998-exec-3] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 11:15:30.687  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 11:17:58.157  INFO 5560 --- [http-nio-9998-exec-5] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 11:17:59.585  INFO 5560 --- [http-nio-9998-exec-5] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 11:20:30.689  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 11:23:18.164  INFO 5560 --- [http-nio-9998-exec-1] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 11:23:19.599  INFO 5560 --- [http-nio-9998-exec-1] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 11:25:30.690  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 11:28:18.038  INFO 5560 --- [http-nio-9998-exec-4] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 11:28:19.487  INFO 5560 --- [http-nio-9998-exec-4] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 11:30:30.691  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 11:31:00.498 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0xafcc667e, L:/127.0.0.1:5312 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 11:31:00.498 ERROR 5560 --- [reactor-http-nio-3] r.n.resources.PooledConnectionProvider   : [id: 0xfe7b7883, L:/127.0.0.1:5294 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 11:31:08.915  INFO 5560 --- [reactor-http-nio-5] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=515473113b01, version=12, registration=Registration(name=USER-SERVICE, managementUrl=http://localhost:8762/actuator, healthUrl=http://localhost:8762/actuator/health, serviceUrl=http://localhost:8762/, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={hystrix={status=UP}, clientConfigServer={status=UP, details={propertySources=[classpath:/shared/user-service-pro.yml, classpath:/shared/application.yml]}}, diskSpace={status=UP, details={total=392459972608, free=211770363904, threshold=10485760}}, rabbit={status=UP, details={version=3.7.9}}, refreshScope={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[blog-service, auth-service, monitor-service, gateway-service, logger-service, user-service, admin-server]}}, eureka={description=Eureka discovery client has not yet successfully connected to a Eureka server, status=UP, details={applications={BLOG-SERVICE=1, AUTH-SERVICE=1, MONITOR-SERVICE=1, GATEWAY-SERVICE=1, LOGGER-SERVICE=1, USER-SERVICE=1, ADMIN-SERVER=1}}}}}, db={status=UP, details={database=MySQL, hello=1}}}), statusTimestamp=2019-10-14T03:12:47.923Z, info=Info(values={}), endpoints=Endpoints(endpoints={hystrix.stream=Endpoint(id=hystrix.stream, url=http://localhost:8762/actuator/hystrix.stream), httptrace=Endpoint(id=httptrace, url=http://localhost:8762/actuator/httptrace), caches=Endpoint(id=caches, url=http://localhost:8762/actuator/caches), loggers=Endpoint(id=loggers, url=http://localhost:8762/actuator/loggers), health=Endpoint(id=health, url=http://localhost:8762/actuator/health), refresh=Endpoint(id=refresh, url=http://localhost:8762/actuator/refresh), env=Endpoint(id=env, url=http://localhost:8762/actuator/env), heapdump=Endpoint(id=heapdump, url=http://localhost:8762/actuator/heapdump), features=Endpoint(id=features, url=http://localhost:8762/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://localhost:8762/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://localhost:8762/actuator/mappings), archaius=Endpoint(id=archaius, url=http://localhost:8762/actuator/archaius), beans=Endpoint(id=beans, url=http://localhost:8762/actuator/beans), configprops=Endpoint(id=configprops, url=http://localhost:8762/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://localhost:8762/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://localhost:8762/actuator/metrics), conditions=Endpoint(id=conditions, url=http://localhost:8762/actuator/conditions), auditevents=Endpoint(id=auditevents, url=http://localhost:8762/actuator/auditevents), service-registry=Endpoint(id=service-registry, url=http://localhost:8762/actuator/service-registry), info=Endpoint(id=info, url=http://localhost:8762/actuator/info), jolokia=Endpoint(id=jolokia, url=http://localhost:8762/actuator/jolokia)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8762
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:616)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 common frames omitted
+
+2019-10-14 11:32:37.983 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0x16118ab4, L:/127.0.0.1:5615 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:32:38.020  INFO 5560 --- [reactor-http-nio-8] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=515473113b01, version=14, registration=Registration(name=USER-SERVICE, managementUrl=http://localhost:8762/actuator, healthUrl=http://localhost:8762/actuator/health, serviceUrl=http://localhost:8762/, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={hystrix={status=UP}, clientConfigServer={status=UP, details={propertySources=[classpath:/shared/user-service-pro.yml, classpath:/shared/application.yml]}}, diskSpace={status=UP, details={total=392459972608, free=211770363904, threshold=10485760}}, rabbit={status=UP, details={version=3.7.9}}, refreshScope={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[blog-service, auth-service, monitor-service, gateway-service, logger-service, user-service, admin-server]}}, eureka={description=Eureka discovery client has not yet successfully connected to a Eureka server, status=UP, details={applications={BLOG-SERVICE=1, AUTH-SERVICE=1, MONITOR-SERVICE=1, GATEWAY-SERVICE=1, LOGGER-SERVICE=1, USER-SERVICE=1, ADMIN-SERVER=1}}}}}, db={status=UP, details={database=MySQL, hello=1}}}), statusTimestamp=2019-10-14T03:31:47.922Z, info=Info(values={}), endpoints=Endpoints(endpoints={hystrix.stream=Endpoint(id=hystrix.stream, url=http://localhost:8762/actuator/hystrix.stream), httptrace=Endpoint(id=httptrace, url=http://localhost:8762/actuator/httptrace), caches=Endpoint(id=caches, url=http://localhost:8762/actuator/caches), loggers=Endpoint(id=loggers, url=http://localhost:8762/actuator/loggers), health=Endpoint(id=health, url=http://localhost:8762/actuator/health), refresh=Endpoint(id=refresh, url=http://localhost:8762/actuator/refresh), env=Endpoint(id=env, url=http://localhost:8762/actuator/env), heapdump=Endpoint(id=heapdump, url=http://localhost:8762/actuator/heapdump), features=Endpoint(id=features, url=http://localhost:8762/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://localhost:8762/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://localhost:8762/actuator/mappings), archaius=Endpoint(id=archaius, url=http://localhost:8762/actuator/archaius), beans=Endpoint(id=beans, url=http://localhost:8762/actuator/beans), configprops=Endpoint(id=configprops, url=http://localhost:8762/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://localhost:8762/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://localhost:8762/actuator/metrics), conditions=Endpoint(id=conditions, url=http://localhost:8762/actuator/conditions), auditevents=Endpoint(id=auditevents, url=http://localhost:8762/actuator/auditevents), service-registry=Endpoint(id=service-registry, url=http://localhost:8762/actuator/service-registry), info=Endpoint(id=info, url=http://localhost:8762/actuator/info), jolokia=Endpoint(id=jolokia, url=http://localhost:8762/actuator/jolokia)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:32:48.027 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0x05047623, L:/127.0.0.1:5624 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:32:58.030 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0x00468cba, L:/127.0.0.1:5630 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:33:08.039 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0x70b4d11b, L:/127.0.0.1:5633 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:33:18.041 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0x5569082f, L:/127.0.0.1:5637 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:33:18.125  INFO 5560 --- [http-nio-9998-exec-10] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 11:33:19.594  INFO 5560 --- [http-nio-9998-exec-10] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 11:33:21.838 ERROR 5560 --- [reactor-http-nio-2] r.n.resources.PooledConnectionProvider   : [id: 0x92616cdb, L:0.0.0.0/0.0.0.0:5576 ! R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+reactor.netty.http.client.HttpClientOperations$PrematureCloseException: Connection prematurely closed BEFORE response
+
+2019-10-14 11:33:47.920 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0x6132131c, L:/127.0.0.1:5666 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:33:57.924 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0xf42a7f16, L:/127.0.0.1:5676 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:34:10.425 ERROR 5560 --- [reactor-http-nio-5] r.n.resources.PooledConnectionProvider   : [id: 0xfe0f7ed6, L:/127.0.0.1:5684 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:34:27.917 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0xbbbd41ab, L:/127.0.0.1:5689 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:34:27.917  INFO 5560 --- [reactor-http-nio-8] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=515473113b01, version=16, registration=Registration(name=USER-SERVICE, managementUrl=http://localhost:8762/actuator, healthUrl=http://localhost:8762/actuator/health, serviceUrl=http://localhost:8762/, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={hystrix={status=UP}, clientConfigServer={status=UP, details={propertySources=[classpath:/shared/user-service-pro.yml, classpath:/shared/application.yml]}}, diskSpace={status=UP, details={total=392459972608, free=211770363904, threshold=10485760}}, rabbit={status=UP, details={version=3.7.9}}, refreshScope={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[blog-service, auth-service, monitor-service, gateway-service, logger-service, user-service, admin-server]}}, eureka={description=Remote status from Eureka server, status=UP, details={applications={BLOG-SERVICE=1, AUTH-SERVICE=1, MONITOR-SERVICE=1, GATEWAY-SERVICE=1, LOGGER-SERVICE=1, USER-SERVICE=1, ADMIN-SERVER=1}}}}}, db={status=UP, details={database=MySQL, hello=1}}}), statusTimestamp=2019-10-14T03:34:00.416Z, info=Info(values={}), endpoints=Endpoints(endpoints={hystrix.stream=Endpoint(id=hystrix.stream, url=http://localhost:8762/actuator/hystrix.stream), httptrace=Endpoint(id=httptrace, url=http://localhost:8762/actuator/httptrace), caches=Endpoint(id=caches, url=http://localhost:8762/actuator/caches), loggers=Endpoint(id=loggers, url=http://localhost:8762/actuator/loggers), health=Endpoint(id=health, url=http://localhost:8762/actuator/health), refresh=Endpoint(id=refresh, url=http://localhost:8762/actuator/refresh), env=Endpoint(id=env, url=http://localhost:8762/actuator/env), heapdump=Endpoint(id=heapdump, url=http://localhost:8762/actuator/heapdump), features=Endpoint(id=features, url=http://localhost:8762/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://localhost:8762/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://localhost:8762/actuator/mappings), archaius=Endpoint(id=archaius, url=http://localhost:8762/actuator/archaius), beans=Endpoint(id=beans, url=http://localhost:8762/actuator/beans), configprops=Endpoint(id=configprops, url=http://localhost:8762/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://localhost:8762/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://localhost:8762/actuator/metrics), conditions=Endpoint(id=conditions, url=http://localhost:8762/actuator/conditions), auditevents=Endpoint(id=auditevents, url=http://localhost:8762/actuator/auditevents), service-registry=Endpoint(id=service-registry, url=http://localhost:8762/actuator/service-registry), info=Endpoint(id=info, url=http://localhost:8762/actuator/info), jolokia=Endpoint(id=jolokia, url=http://localhost:8762/actuator/jolokia)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:34:37.923 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0x9e7ef9c7, L:/127.0.0.1:5694 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:34:47.926 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0x8756c7bf, L:/127.0.0.1:5695 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:35:09.654 ERROR 5560 --- [reactor-http-nio-8] r.n.resources.PooledConnectionProvider   : [id: 0x6f25bbdd, L:/127.0.0.1:5699 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:35:09.656 ERROR 5560 --- [reactor-http-nio-1] r.n.resources.PooledConnectionProvider   : [id: 0xb2971ecb, L:/127.0.0.1:5700 - R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+io.netty.handler.timeout.ReadTimeoutException: null
+
+2019-10-14 11:35:30.693  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 11:36:37.854 ERROR 5560 --- [reactor-http-nio-5] r.n.resources.PooledConnectionProvider   : [id: 0xd98b3638, L:0.0.0.0/0.0.0.0:5698 ! R:localhost/127.0.0.1:8762] Pooled connection observed an error
+
+reactor.netty.http.client.HttpClientOperations$PrematureCloseException: Connection prematurely closed BEFORE response
+
+2019-10-14 11:36:48.911  INFO 5560 --- [reactor-http-nio-1] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=515473113b01, version=18, registration=Registration(name=USER-SERVICE, managementUrl=http://localhost:8762/actuator, healthUrl=http://localhost:8762/actuator/health, serviceUrl=http://localhost:8762/, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={hystrix={status=UP}, clientConfigServer={status=UP, details={propertySources=[classpath:/shared/user-service-pro.yml, classpath:/shared/application.yml]}}, diskSpace={status=UP, details={total=392459972608, free=211770363904, threshold=10485760}}, rabbit={status=UP, details={version=3.7.9}}, refreshScope={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[blog-service, auth-service, monitor-service, gateway-service, logger-service, user-service, admin-server]}}, eureka={description=Remote status from Eureka server, status=UP, details={applications={BLOG-SERVICE=1, AUTH-SERVICE=1, MONITOR-SERVICE=1, GATEWAY-SERVICE=1, LOGGER-SERVICE=1, USER-SERVICE=1, ADMIN-SERVER=1}}}}}, db={status=UP, details={database=MySQL, hello=1}}}), statusTimestamp=2019-10-14T03:34:59.621Z, info=Info(values={}), endpoints=Endpoints(endpoints={hystrix.stream=Endpoint(id=hystrix.stream, url=http://localhost:8762/actuator/hystrix.stream), httptrace=Endpoint(id=httptrace, url=http://localhost:8762/actuator/httptrace), caches=Endpoint(id=caches, url=http://localhost:8762/actuator/caches), loggers=Endpoint(id=loggers, url=http://localhost:8762/actuator/loggers), health=Endpoint(id=health, url=http://localhost:8762/actuator/health), refresh=Endpoint(id=refresh, url=http://localhost:8762/actuator/refresh), env=Endpoint(id=env, url=http://localhost:8762/actuator/env), heapdump=Endpoint(id=heapdump, url=http://localhost:8762/actuator/heapdump), features=Endpoint(id=features, url=http://localhost:8762/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://localhost:8762/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://localhost:8762/actuator/mappings), archaius=Endpoint(id=archaius, url=http://localhost:8762/actuator/archaius), beans=Endpoint(id=beans, url=http://localhost:8762/actuator/beans), configprops=Endpoint(id=configprops, url=http://localhost:8762/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://localhost:8762/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://localhost:8762/actuator/metrics), conditions=Endpoint(id=conditions, url=http://localhost:8762/actuator/conditions), auditevents=Endpoint(id=auditevents, url=http://localhost:8762/actuator/auditevents), service-registry=Endpoint(id=service-registry, url=http://localhost:8762/actuator/service-registry), info=Endpoint(id=info, url=http://localhost:8762/actuator/info), jolokia=Endpoint(id=jolokia, url=http://localhost:8762/actuator/jolokia)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:8762
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:616)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 common frames omitted
+
+2019-10-14 11:37:04.982  INFO 5560 --- [DiscoveryClient-CacheRefreshExecutor-0] d.c.b.a.s.c.d.InstanceDiscoveryListener  : Instance (515473113b01) missing in DiscoveryClient services 
+2019-10-14 11:38:27.579 ERROR 5560 --- [reactor-http-nio-2] r.n.resources.PooledConnectionProvider   : [id: 0xc88d2a65, L:/127.0.0.1:5798 - R:localhost/127.0.0.1:9999] Pooled connection observed an error
+
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:628)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-10-14 11:38:28.129  INFO 5560 --- [http-nio-9998-exec-8] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 11:38:28.931  INFO 5560 --- [reactor-http-nio-3] d.c.b.a.server.services.StatusUpdater    : Couldn't retrieve status for Instance(id=674bd9384242, version=4, registration=Registration(name=AUTH-SERVICE, managementUrl=http://localhost:9999/actuator, healthUrl=http://localhost:9999/actuator/health, serviceUrl=http://localhost:9999/, source=discovery), registered=true, statusInfo=StatusInfo(status=UP, details={hystrix={status=UP}, clientConfigServer={status=UP, details={propertySources=[classpath:/shared/auth-service-pro.yml, classpath:/shared/application.yml]}}, diskSpace={status=UP, details={total=392459972608, free=211770363904, threshold=10485760}}, refreshScope={status=UP}, discoveryComposite={status=UP, details={discoveryClient={status=UP, details={services=[blog-service, auth-service, monitor-service, gateway-service, logger-service, user-service, admin-server]}}, eureka={description=Eureka discovery client has not yet successfully connected to a Eureka server, status=UP, details={applications={BLOG-SERVICE=1, AUTH-SERVICE=1, MONITOR-SERVICE=1, GATEWAY-SERVICE=1, LOGGER-SERVICE=1, USER-SERVICE=1, ADMIN-SERVER=1}}}}}, db={status=UP, details={database=MySQL, hello=1}}}), statusTimestamp=2019-10-14T03:04:28.313Z, info=Info(values={}), endpoints=Endpoints(endpoints={httptrace=Endpoint(id=httptrace, url=http://localhost:9999/actuator/httptrace), caches=Endpoint(id=caches, url=http://localhost:9999/actuator/caches), loggers=Endpoint(id=loggers, url=http://localhost:9999/actuator/loggers), health=Endpoint(id=health, url=http://localhost:9999/actuator/health), refresh=Endpoint(id=refresh, url=http://localhost:9999/actuator/refresh), env=Endpoint(id=env, url=http://localhost:9999/actuator/env), heapdump=Endpoint(id=heapdump, url=http://localhost:9999/actuator/heapdump), features=Endpoint(id=features, url=http://localhost:9999/actuator/features), scheduledtasks=Endpoint(id=scheduledtasks, url=http://localhost:9999/actuator/scheduledtasks), mappings=Endpoint(id=mappings, url=http://localhost:9999/actuator/mappings), archaius=Endpoint(id=archaius, url=http://localhost:9999/actuator/archaius), beans=Endpoint(id=beans, url=http://localhost:9999/actuator/beans), configprops=Endpoint(id=configprops, url=http://localhost:9999/actuator/configprops), threaddump=Endpoint(id=threaddump, url=http://localhost:9999/actuator/threaddump), metrics=Endpoint(id=metrics, url=http://localhost:9999/actuator/metrics), conditions=Endpoint(id=conditions, url=http://localhost:9999/actuator/conditions), auditevents=Endpoint(id=auditevents, url=http://localhost:9999/actuator/auditevents), service-registry=Endpoint(id=service-registry, url=http://localhost:9999/actuator/service-registry), info=Endpoint(id=info, url=http://localhost:9999/actuator/info), jolokia=Endpoint(id=jolokia, url=http://localhost:9999/actuator/jolokia)}), buildVersion=null, tags=Tags(values={}))
+
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:9999
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:616)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:563)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:480)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 10 common frames omitted
+
+2019-10-14 11:38:29.731  INFO 5560 --- [http-nio-9998-exec-8] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 11:40:30.695  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 11:43:48.048  INFO 5560 --- [http-nio-9998-exec-7] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 11:43:49.567  INFO 5560 --- [http-nio-9998-exec-7] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 11:45:30.696  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 11:49:08.107  INFO 5560 --- [http-nio-9998-exec-10] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 11:49:09.747  INFO 5560 --- [http-nio-9998-exec-10] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 11:50:30.698  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 11:54:08.040  INFO 5560 --- [http-nio-9998-exec-3] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 11:54:09.612  INFO 5560 --- [http-nio-9998-exec-3] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 11:55:30.699  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 11:59:08.047  INFO 5560 --- [http-nio-9998-exec-10] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 11:59:09.592  INFO 5560 --- [http-nio-9998-exec-10] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
+2019-10-14 12:00:30.701  INFO 5560 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-10-14 12:04:28.035  INFO 5560 --- [http-nio-9998-exec-6] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8769
+2019-10-14 12:04:29.611  INFO 5560 --- [http-nio-9998-exec-6] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=admin-server, profiles=[pro], label=null, version=null, state=null
