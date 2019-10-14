@@ -19,9 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * Created by fangzhipeng on 2017/5/27.
- */
+
 
 @Configuration
 class WebSecurityConfig extends WebSecurityConfigurerAdapter {

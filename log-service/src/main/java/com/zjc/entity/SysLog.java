@@ -4,9 +4,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by fangzhipeng on 2017/7/12.
- */
+
 @Entity
 public class SysLog implements Serializable {
     @Id
